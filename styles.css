@@ -1,0 +1,19 @@
+
+body{
+    text-align: center;
+    background-color: aliceblue; 
+}
+
+.btn-container-wrapper{
+    width: 100vw;
+    height:100vh;
+    display:grid;
+    place-content: center;
+}
+.btn{
+    height: 100px;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    margin:10px;
+}
