@@ -1,19 +1,30 @@
 
 body{
     text-align: center;
-    background-color: aliceblue; 
+    background-color: #fff
+}
+.hero-image{
+    width: 200px;
+    height: 200px;
 }
 
 .btn-container-wrapper{
     width: 100vw;
-    height:100vh;
+    height:40vh;
     display:grid;
     place-content: center;
 }
 .btn{
+    background-color: #000;
     height: 100px;
     width:100px;
     border-radius: 10px;
-    border: none;
+    border:  solid salmon;
     margin:10px;
+    font-size: xx-large;
+    color:whitesmoke;
+    transition: 0.4s ;
+}
+.btn:hover{
+    transform: scale(1.5);
 }
