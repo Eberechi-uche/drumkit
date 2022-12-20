@@ -1,7 +1,8 @@
 
 body{
     text-align: center;
-    background-color: #fff
+    background-color: #fff;
+    
 }
 .hero-image{
     width: 200px;
@@ -16,13 +17,14 @@ body{
 }
 .btn{
     background-color: #000;
+    filter: invert();
     height: 100px;
     width:100px;
     border-radius: 10px;
     border:  solid salmon;
     margin:10px;
     font-size: xx-large;
-    color:whitesmoke;
+    color:rgb(23, 213, 153);
     transition: 0.4s ;
 }
 .btn:hover{
