@@ -7,7 +7,6 @@ let keyboardButtons = ['w', 'a', 's', 'd', 'j', 'k', 'l']
 
 function handleKeyInput(event){
   if(keyboardButtons.includes(event.key)){
-    console.log(keyboardButtons.indexOf(event.key))
     handleClick(keyboardButtons.indexOf(event.key))
   }else{
     return
