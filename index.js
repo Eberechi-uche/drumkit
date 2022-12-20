@@ -25,7 +25,6 @@ buttons.forEach((element, index) =>{
 
 function handleClick(e){
     let audioOut =   typeof(e) == 'object' ? e.target.id : e
-    console.log(audioOut)
     let audio = new Audio(sounds[audioOut]  );
     audio.play() 
 }
